@@ -1,0 +1,24 @@
+package pack;
+
+public class EmployeeService {
+	public EmployeeDAO dao;
+	public void insert(Employee e)
+	{
+	dao.insert(e);	
+	}
+	public void DeletebyId(int EmpId)
+	{
+		dao.delete(EmpId);
+		
+	}
+	public void UpdatebyId(int EmpId)
+	{
+		dao.Update(EmpId);
+	}
+	public void DisplayAll(Employee e)
+	{
+		dao.display(e);
+	}
+	
+
+}

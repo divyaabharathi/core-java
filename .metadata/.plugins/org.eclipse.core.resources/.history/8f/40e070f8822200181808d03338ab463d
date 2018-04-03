@@ -1,0 +1,9 @@
+package com.org;
+
+public class EmployeeDAO {
+	public int store(Employee emp){
+		int status=0;
+		return status;
+	}
+
+}

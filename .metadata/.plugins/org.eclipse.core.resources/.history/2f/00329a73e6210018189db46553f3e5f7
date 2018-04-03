@@ -1,0 +1,14 @@
+package com.org;
+
+public class DemoREST {
+public String test(){
+	System.out.println("test() is called");
+	return "<greeting>Hello</greeting>";
+}
+public Customer sendCustomer()
+{
+	System.out.println("sendCustomer() is called");
+	Customer c=new Customer(111,"Rahul",34);
+	return c;
+}
+}

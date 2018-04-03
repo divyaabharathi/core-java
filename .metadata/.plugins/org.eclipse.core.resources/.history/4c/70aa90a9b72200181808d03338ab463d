@@ -1,0 +1,8 @@
+package pack;
+
+public class Aadhar {
+	public void display() {
+		System.out.println("aadhar information");
+	}
+
+}

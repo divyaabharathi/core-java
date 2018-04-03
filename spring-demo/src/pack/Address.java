@@ -1,0 +1,16 @@
+ package pack;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Address {
+	public Address()
+	{
+		System.out.println("Adress() is created");
+	}
+	public void display()
+	{
+		System.out.println("display() is called");
+	}
+
+}

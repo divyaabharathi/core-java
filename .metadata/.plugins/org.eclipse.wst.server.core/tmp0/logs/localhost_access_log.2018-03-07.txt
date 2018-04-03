@@ -1,0 +1,12 @@
+127.0.0.1 - - [07/Mar/2018:14:35:59 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:14:36:00 +0530] "GET /Restful-demo/WEB-INF/classes/com/org/DemoREST.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:14:38:15 +0530] "GET /Restful-demo/WEB-INF/classes/com/org/demo/getCustomer HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:14:38:26 +0530] "GET /Restful-demo/WEB-INF/classes/com/org/DemoREST.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:14:41:11 +0530] "GET /Restful-demo/WEB-INF/classes/com/org/DemoREST.java HTTP/1.1" 404 949
+127.0.0.1 - - [07/Mar/2018:14:42:06 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:14:42:06 +0530] "GET /Restful-demo/WEB-INF/classes/com/org/Customer.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:14:42:58 +0530] "GET /Restful-demo/WEB-INF/classes/com/org/Customer.java/demo/simple HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:14:43:14 +0530] "GET /Restful-demo/WEB-INF/classes/com/org/Customer.java/demo/getCustomer HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:14:43:21 +0530] "GET /Restful-demo/WEB-INF/classes/com/org/Customer.java/demo/getCustomer HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:14:44:22 +0530] "GET /Restful-demo/WEB-INF/classes/com/org/Customer.java/rest/demo/getCustomer HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [07/Mar/2018:14:45:08 +0530] "GET /Restful-demo/rest/demo/getCustomer HTTP/1.1" 200 151

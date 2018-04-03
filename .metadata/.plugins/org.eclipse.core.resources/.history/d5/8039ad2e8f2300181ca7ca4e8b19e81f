@@ -1,0 +1,26 @@
+package pack;
+
+import java.util.List;
+
+public class EmployeeService {
+	public EmployeeDAO dao;
+	public void insert(Employee e)
+	{
+	dao.insert(e);	
+	}
+	public void DeletebyId(int EmpId)
+	{
+		dao.delete(EmpId);
+		
+	}
+	public void UpdatebyId(int EmpId)
+	{
+		dao.Update(EmpId);
+	}
+	public List<Employee> DisplayAll(Employee e)
+	{
+		return dao.display(e);
+	}
+	
+
+}

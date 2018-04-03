@@ -1,0 +1,41 @@
+package pack;
+
+import java.util.Scanner;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("1.ADD 2.Delete by id 3.DisplayAll 4.UpdatebyId 5.Exit");
+		int op=sc.nextInt();
+		do
+		{
+			
+			
+		
+		switch (op) {
+		case 1:
+			System.out.println("EnterId");
+			int Id=sc.nextInt();
+			System.out.println("Enter name");
+			String name=sc.next();
+			System.out.println("Enter Designation");
+			String des=sc.next();
+			System.out.println("Enter salary");
+			int sal=sc.nextInt();
+			Employee.setEmpId(Id);
+			Employee.setEmpName(name);
+			
+			
+			break;
+
+		default:
+			break;
+		}
+		}while(op<=5);
+		
+		
+		
+	}
+
+}
